@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.el-header,
+.el-footer {
+  background-color: #b3c0d1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-aside {
+  background-color: #d3dce6;
+  color: #333;
+}
+
+.el-main {
+  background-color: #e9eef3;
+  color: #333;
+}
+.el-main,
+.el-aside {
+  max-height: calc(100vh - 120px);
+}
+.container {
+  min-height: 100vh;
+}
+.excelPath {
+  white-space: nowrap;
+}
+.el-form {
+  margin: 10px;
+  display: block;
+  text-align: left;
+}
+.el-form-item {
+  margin-bottom: 10px !important;
+}
+.el-form-item__label {
+  padding: 0 !important;
+}
